@@ -22,7 +22,7 @@ protocolServe({
 //     autoSubmit: true
 // });
 
-app.commandLine.appendSwitch('widevine-cdm-path', '../widevine/libwidevinecdm.dylib');
+app.commandLine.appendSwitch('widevine-cdm-path', '../../widevine/libwidevinecdm.dylib');
 app.commandLine.appendSwitch('widevine-cdm-version', '1.4.8.962');
 
 app.on('window-all-closed', () => {
